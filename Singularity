@@ -29,3 +29,6 @@ make
 make install
 mkdir /scratch
 chmod -R 777 /scratch
+
+%runscript
+python /pymultinest_demo_minimal.py
